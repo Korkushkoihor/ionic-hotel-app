@@ -1,0 +1,17 @@
+page-item-details {
+
+}
+
+.bold {
+  font-weight: bold;
+}
+
+ion-card-header {
+  display: flex;
+  flex-direction: row;
+
+  .active {
+    margin-left: 10px;
+    color: #36c0c7;
+  }
+}

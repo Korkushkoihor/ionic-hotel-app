@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle *ngIf="!selectedItem">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>{{selectedItem?.Name}}</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content *ngIf="selectedItem">
+  <ion-scroll scrollY="true" style="width: 100%; height: 100%;">
+    <ion-content *ngIf="selectedItem?.Images.length" style="height: 250px;">
+      <h3 text-center>
+        <ion-slides pager>
+
+          <ion-slide *ngFor="let item of selectedItem?.Images; let i = index;">
+            <img src="http://api.meetingplannerguide.com/{{item}}" alt="hotel-photo">
+          </ion-slide>
+
+        </ion-slides>
+      </h3>
+    </ion-content>
+    <ion-card-header>
+      <span class="bold">Telephone:</span> <a class="active" href="tel:{{selectedItem?.Telephone}}">{{selectedItem?.Telephone}}</a>
+    </ion-card-header>
+    <ion-card-header>
+      <span class="bold">Email:</span> <a class="active" href="mailto:{{selectedItem?.Telephone}}">{{selectedItem?.Email}}</a>
+    </ion-card-header>
+    <ion-card-header>
+      <span class="bold">Address:</span>
+      <div class="active">{{selectedItem?.Address}}</div>
+    </ion-card-header>
+    <ion-card-header>
+      <span class="bold">ToAirport:</span>
+      <div class="active">{{selectedItem?.ToAirport}}</div>
+    </ion-card-header>
+    <ion-card-header>
+      <span class="bold"> ToCityCenter:</span>
+      <div class="active">{{selectedItem?.ToCityCenter}}</div>
+    </ion-card-header>
+
+    <ion-card-content [innerHtml]="selectedItem?.Description">
+      <!-- Add card content here! -->
+    </ion-card-content>
+  </ion-scroll>
+</ion-content>

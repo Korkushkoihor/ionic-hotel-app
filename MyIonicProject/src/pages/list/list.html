@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Hotel List</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-card *ngFor="let item of items" (click)="itemTapped($event, item)">
+      <ion-item>
+        <ion-avatar item-start>
+          <img *ngIf="item?.Logo" src="{{'http://api.meetingplannerguide.com/'+item?.Logo}}">
+          <div *ngIf="!item?.Logo" class="circle-image">{{item?.NameShort}}</div>
+        </ion-avatar>
+        <h2>{{item?.Name}}</h2>
+        <p>{{item?.Email}}</p>
+      </ion-item>
+
+      <img *ngIf="item?.MainImage" src="{{'http://api.meetingplannerguide.com/' + item?.MainImage}}">
+
+      <ion-card-content *ngIf="item?.Description">
+        <div [innerHtml]="item?.DescriptionShort"></div>
+      </ion-card-content>
+
+    </ion-card>
+
+  </ion-list>
+</ion-content>
