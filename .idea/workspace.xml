@@ -5,6 +5,7 @@
       <change afterPath="$PROJECT_DIR$/MyIonicProject/src/pages/hello-ionic/hello-ionic.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/MyIonicProject/src/pages/hello-ionic/hello-ionic.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/MyIonicProject/src/pages/hello-ionic/hello-ionic.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,14 +51,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="HotelModel" value="210" />
-          <entry key="html" value="766" />
+          <entry key="html" value="772" />
           <entry key="scss" value="110" />
           <entry key="ts" value="679" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="765" />
+          <entry key="HTML" value="771" />
           <entry key="JavaScript" value="1" />
           <entry key="SCSS" value="110" />
           <entry key="TypeScript" value="889" />
@@ -79,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyIonicProject/src/pages/item-details/item-details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+            <state relative-caret-position="276">
+              <caret line="37" column="59" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="59" />
               <folding>
                 <element signature="n#style#0;n#ion-scroll#0;n#ion-content#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ion-content#0;n#ion-content#0;n#!!top" expanded="true" />
@@ -341,12 +342,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543778232245</updated>
-      <workItem from="1543778233539" duration="9863000" />
+      <workItem from="1543778233539" duration="10790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9863000" />
+    <option name="totallyTimeSpent" value="10790000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -362,12 +363,12 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.3299566" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.30969608" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.30969608" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -484,16 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyIonicProject/src/pages/item-details/item-details.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyIonicProject/src/pages/list/list.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -538,10 +529,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MyIonicProject/src/pages/item-details/item-details.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MyIonicProject/src/pages/item-details/item-details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        <state relative-caret-position="276">
+          <caret line="37" column="59" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="59" />
           <folding>
             <element signature="n#style#0;n#ion-scroll#0;n#ion-content#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ion-content#0;n#ion-content#0;n#!!top" expanded="true" />
